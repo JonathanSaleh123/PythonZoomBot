@@ -6,7 +6,7 @@ from datetime import datetime
 
 def login(meetid, pwd):
     #Logins to the app
-    subprocess.call(["usr/bin/open", "/Applications/zoom.us.app"])
+    subprocess.call(["/usr/bin/open", "/Applications/zoom.us.app"])
     
     time.sleep(10)
     
